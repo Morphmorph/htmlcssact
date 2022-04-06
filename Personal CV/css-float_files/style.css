@@ -1,0 +1,36 @@
+.container {
+    height: 70vh;
+}
+.box {
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+#box1
+{
+    background-color: teal;
+    width: 96.8%;
+    clear: both;
+}
+#box2
+{
+    background-color: rgb(30, 146, 107);
+    float: left;
+    height: 60vh;
+    width: 40px;
+}
+#box3 
+{
+    background-color: rgb(115, 202, 173);
+    clear: right;
+    height: 60vh;
+    width: 96.8%;
+
+}
+#box4
+{
+    background-color: rgb(21, 109, 80);
+    clear: both;
+    width: 96.8%;
+}

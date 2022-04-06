@@ -1,0 +1,96 @@
+body {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    background: linear-gradient(-45deg, rgb(82, 192, 92), rgb(8, 139, 148));
+    background-size: 300% 500% ;
+    width: 96.7%;
+    height: 100em;
+    animation: animate2 15s ease-in-out infinite;
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background:linear-gradient(100deg, rgb(15, 15, 15), rgb(43, 44, 46)) ;
+    background-size: 400% 400%;
+    animation: animate 10s ease-in-out infinite;
+    padding: 25px;
+    display: inline-block;
+    list-style-type: none;
+}
+@keyframes animate{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+@keyframes animate2{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+p {
+    font-size: 30px;
+}
+.nav-bar li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+}
+.page-content {
+    padding-top: 10px;
+    display: flexbox;
+    overflow: hidden;
+}
+.card {
+    border: black;
+    border-radius: 5px;
+    margin-top: 3%;
+    width: 99%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transition: 0.3s;
+}
+
+.card-header {
+    padding: 1%;
+    height: 10%;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: 2px solid rgb(192, 192, 192);
+}
+
+.card-body {
+    padding: 5%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+footer{
+    color:  white;
+    padding: 20px;
+    background: rgb(44, 44, 44);
+    position: relative;
+    font-size: 80%;
+}
